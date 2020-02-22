@@ -1,0 +1,42 @@
+//Algorithm for linear search
+#include <iostream>
+using namespace std;
+
+int linear_search(int my_array[], int mysearch_item, int array_size){
+	for(int i=0; i<sizeof( my_array); i++){
+		if(mysearch_item==my_array[i]){
+			cout<<"number found at position " <<i<<endl;
+			return i;
+			
+			}
+		}
+				cout<<"number not found"<<endl;
+				return -1;
+			
+		
+	}
+	
+void delete_item(int array[], int mysearch_item){
+	
+		}
+int main(void){
+	
+
+	
+	for(int i=0;i<10;i++){
+		int numbers[i];
+	}
+		int numbers[10]={6,30,21,15,70,125,7,303,1002,7500};
+	//{6, 30, 21, 15, 70, 125, 7 ,303, 1002, 7500}
+	
+
+	
+	int results = linear_search(numbers, 70, 10);
+    results = linear_search(numbers, 100, 10);
+	results = linear_search(numbers, 1000, 10);
+	results = linear_search(numbers, 30, 10);
+	
+}
+	
+
+	
